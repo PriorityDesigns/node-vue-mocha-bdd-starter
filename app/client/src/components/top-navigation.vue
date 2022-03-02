@@ -33,7 +33,7 @@ export default {
 .container {
   position: absolute;
   width: 100%;
-  height: 4em;
+  height: 4rem;
   background-color: var(--primary-bg-color);
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
@@ -43,7 +43,7 @@ export default {
   display: flex;
   flex-flow: row;
   height: 100%;
-  margin-left: 1em;
+  margin-left: 1rem;
 }
 
 .container-home {
@@ -51,7 +51,7 @@ export default {
   display: flex;
   flex-flow: row;
   justify-content: center;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-family: Base-Regular;
   color: white;
 }
@@ -61,7 +61,7 @@ export default {
 
 .pd-logo {
   height: auto;
-  width: 10em;
+  width: 12rem;
   vertical-align: middle;
 }
 

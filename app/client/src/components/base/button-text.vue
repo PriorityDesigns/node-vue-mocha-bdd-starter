@@ -42,19 +42,19 @@ export default {
 <style scoped>
 .button-text {
   display: block;
-  min-width: 5em;
-  min-height: 3em;
-  padding: .2em;
+  min-width: 5rem;
+  min-height: 3rem;
+  padding: .2rem;
   text-align: center;
-  margin: .2em;
+  margin: .2rem;
 
   font-family: Base-Light;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   color: var(--primary-color);
   background-color: var(--transparent-color);
   border: none;
   outline: none;
-  border-radius: 0em;
+  border-radius: 0rem;
   box-shadow: none;
   transition: all 0.5s cubic-bezier(.25,.8,.25,1);
 }
