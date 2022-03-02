@@ -34,7 +34,7 @@ export default {
   position: absolute;
   width: 100%;
   height: 4em;
-  background-color: var(--primary-color-bg);
+  background-color: var(--primary-bg-color);
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 

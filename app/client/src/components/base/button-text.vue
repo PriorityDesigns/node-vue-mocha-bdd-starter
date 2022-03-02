@@ -50,8 +50,8 @@ export default {
 
   font-family: Base-Light;
   font-size: 1.1em;
-  color: #FFFFFF;
-  background-color: rgba(0, 0, 0, 0);
+  color: var(--primary-color);
+  background-color: var(--transparent-color);
   border: none;
   outline: none;
   border-radius: 0em;
@@ -60,20 +60,19 @@ export default {
 }
 .button-text:hover {
   box-shadow: none;
-  color: #68E5FF;
-	cursor: pointer;
+  color: var(--secondary-color);
+  cursor: pointer;
 }
 .button-text:active {
-  color: #FFFFFF;
-	box-shadow: none;
+  color: var(--primary-color);
+  box-shadow: none;
 }
 
 .button-text-emphasis {
-  color: #34BDD9;
   font-family: Base-Bold;
 }
 .button-text-emphasis:active {
-  color: #34BDD9;
+  color: var(--primary-color);
 }
 
 .button-text:disabled {

@@ -1,7 +1,7 @@
 body {
   font-family: Base-Regular;
-  color: #282828;
-  background-color: #F6F6F6;
+  color: var(--primary-text-color);
+  background-color: var(--body-bg-color);
   position: absolute;
   top: 0;
   width: 100%;
@@ -20,8 +20,8 @@ button {
   margin: 1em auto;
 
   font-family: Base-Regular;
-  color: #FFFFFF;
-  background-color: rgba(255, 130, 0, 1);
+  color: var(--secondary-text-color);
+  background-color: var(--primary-color);
   border: none;
   outline: none;
   border-radius: .4em;
@@ -44,10 +44,10 @@ button:disabled {
 
 a {
 	text-decoration:none;
-	color: rgba(255, 130, 0, 1);
+	color: var(--primary-color);
 }
 a:hover {
-	color: rgba(255, 200, 0, 1);
+	color: var(--secondary-color);
 }
 
 select:focus {
@@ -59,12 +59,12 @@ input {
   box-sizing: border-box;
   font-family: Base-Regular;
   border-radius: .3em;
-  border-color: #575757;
+  border-color: var(--primary-border-color);
 }
 input:focus {
   outline: none;
   border: 2px solid;
-  border-color: rgba(255, 130, 0, 1);
+  border-color: var(--primary-color);
 }
 
 .main-container {
