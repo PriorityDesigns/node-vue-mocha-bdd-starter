@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  client:
+    image: vueclient:latest
+    restart: always
+    logging:
+      options:
+        max-size: "4k"
+        max-file: "3"
+    environment:
+      - NODE_ENV=${NODE_ENVIRONMENT}
+    ports:
+      - 3000:3000
+    volumes:
+      - "${NODE_CLIENT_VOLUME}:/data/app"
