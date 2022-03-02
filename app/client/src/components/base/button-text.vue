@@ -1,5 +1,8 @@
 <template>
-  <button v-on:click="$emit(emitName)" :disabled="isDisabled" class="button-text" v-bind:class="getClass()">{{ buttonText }}</button>
+  <button v-on:click="$emit(emitName)"
+    :disabled="isDisabled"
+    class="button-text"
+    v-bind:class="getClass()">{{ buttonText }}</button>
 </template>
 
 <script>
