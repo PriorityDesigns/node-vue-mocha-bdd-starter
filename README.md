@@ -33,12 +33,12 @@ A front-end client starter project that is setup using node.js + vue.js + mocha 
     ```
 - Run app using:
     ```bash
-    > cd app/client
+    > cd app
     > ./start-server.sh
     ```
 - Run tests using:
     ```bash
-    > cd app/client
+    > cd app
     > ./run-tests.sh
     ```
 - Access application in the browser at `localhost:3000`
