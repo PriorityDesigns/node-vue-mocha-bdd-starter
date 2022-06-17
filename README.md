@@ -32,7 +32,7 @@ NODE_TLS_REJECT_UNAUTHORIZED=0
 - Access application in the browser at `localhost:3000`
 
 ## Using node locally
-- Make sure node is installed
+- Make sure node and npm is installed
   - Tested with node.js LTS (16.13.1)
 - Install dependencies (do this once or if new packages are added):
     ```bash

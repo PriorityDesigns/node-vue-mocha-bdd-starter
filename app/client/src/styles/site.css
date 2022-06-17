@@ -67,15 +67,6 @@ input:focus {
   border-color: var(--primary-color);
 }
 
-.main-container {
-	position: absolute;
-	text-align: center;
-  height: 100%;
-  width: 100%;
-	margin: 0rem;
-	padding: 0rem;
-}
-
 @font-face {
   font-family: "Base-Regular";
   src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');

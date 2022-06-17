@@ -1,8 +1,6 @@
 <template>
-  <div class="main-container">
-    <TopNavigation/>
-		<div class="vertical-align"></div>
-		
+  <div class="home-container">
+    <TopNavigation/>		
   </div>
 </template>
 
@@ -23,3 +21,10 @@ export default {
 }
 </script>
 
+<style scoped>
+.home-container {
+  width: 100%;
+  height: 100%;
+  margin: 0rem;
+}
+</style>
