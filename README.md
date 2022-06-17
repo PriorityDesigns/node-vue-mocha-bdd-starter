@@ -12,14 +12,22 @@ A front-end client starter project that is setup using node.js + vue.js + mocha 
     - VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
 
 # Build, Run and Test
+## Create .env file
+- Within the app directory, create .env file with the following contents:
+```
+NODE_ENVIRONMENT=dev
+NODE_CLIENT_VOLUME=./client
+NODE_TLS_REJECT_UNAUTHORIZED=0
+```
+
 ## Using Docker
 - Make sure Docker is installed and running
   - https://www.docker.com/products/docker-desktop
 - To build and run:
     ```bash
-    > cd app
+    > cd scripts
     > ./build-docker.sh
-    > ./start-docker.sh
+    > ./docker-start.sh
     ```
 - Access application in the browser at `localhost:3000`
 
@@ -33,12 +41,12 @@ A front-end client starter project that is setup using node.js + vue.js + mocha 
     ```
 - Run app using:
     ```bash
-    > cd app
-    > ./start-server.sh
+    > cd scripts
+    > ./node-start.sh
     ```
 - Run tests using:
     ```bash
-    > cd app
+    > cd scripts
     > ./run-tests.sh
     ```
 - Access application in the browser at `localhost:3000`

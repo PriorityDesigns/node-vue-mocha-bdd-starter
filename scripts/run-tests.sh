@@ -1,5 +1,5 @@
 #!/bin/bash
 
 export NODE_ENV=test
-cd ./client
+cd ../app/client
 npm run test:unit
